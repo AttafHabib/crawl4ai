@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: bash -c 'CRAWL4AI_PORT=$PORT GUNICORN_BIND=0.0.0.0:$PORT exec bash entrypoint.sh'
