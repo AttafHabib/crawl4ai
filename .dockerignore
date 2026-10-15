@@ -1,0 +1,32 @@
+# Keep the Docker build context (and Heroku container builds) small.
+# README.md, LICENSE and requirements.txt are read by the package build, so they stay.
+
+.git
+.github
+.claude
+.context
+docs
+tests
+sbom
+prompts
+scripts
+uv.lock
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+CONTRIBUTORS.md
+MISSION.md
+PROGRESSIVE_CRAWLING.md
+ROADMAP.md
+SECURITY.md
+SECURITY-CREDITS.md
+SPONSORS.md
+cliff.toml
+mkdocs.yml
+
+# Local secrets and caches
+.env
+**/__pycache__
+**/*.pyc
+.venv
+venv
